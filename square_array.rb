@@ -1,7 +1,7 @@
 def square_array(array)
   # your code here
-  
-  array.each do |brother|
-  puts "Stop hitting yourself #{brother}!"
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
 end
-end
+
